@@ -5,7 +5,7 @@ if False:
     from trezor.messages.ResetDevice import EnumTypeBackupType
 
 
-_BIP39_WORD_COUNTS = (12, 18, 24)
+_BIP39_WORD_COUNTS = (12, 15, 18, 24)
 _SLIP39_WORD_COUNTS = (20, 33)
 
 
