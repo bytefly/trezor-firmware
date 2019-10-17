@@ -171,7 +171,7 @@ int mnemonic_check(const char *mnemonic) {
   if (words == 12) {
     return (bits[0] & 0xF0) == (checksum & 0xF0);  // compare first 4 bits
   } else if (words == 15) {
-    return (bits[0] & 0xFE) == (checksum & 0xFE);  // compare first 5 bits
+    return (bits[0] & 0xF8) == (checksum & 0xF8);  // compare first 5 bits
   } else if (words == 18) {
     return (bits[0] & 0xFC) == (checksum & 0xFC);  // compare first 6 bits
   } else if (words == 24) {

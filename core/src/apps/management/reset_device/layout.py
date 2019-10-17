@@ -134,7 +134,7 @@ def _split_share_into_pages(share_words):
     share = list(enumerate(share_words))  # we need to keep track of the word indices
     first = share[:2]  # two words on the first page
     length = len(share_words)
-    if length == 12 or length == 20 or length == 24:
+    if length == 12 or length == 15 or length == 20 or length == 24:
         middle = share[2:-2]
         last = share[-2:]  # two words on the last page
     elif length == 33:
