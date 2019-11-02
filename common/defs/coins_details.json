@@ -337,6 +337,24 @@
                 }
             ]
         },
+        "bitcoin:DSC": {
+            "links": {
+                "Github": "https://github.com",
+                "Homepage": "https://dashcash.io"
+            },
+            "marketcap_usd": 0,
+            "name": "DashCash",
+            "shortcut": "DSC",
+            "t1_enabled": "yes",
+            "t2_enabled": "yes",
+            "type": "coin",
+            "wallet": [
+                {
+                    "name": "Trezor",
+                    "url": "https://wallet.trezor.io"
+                }
+            ]
+        },
         "bitcoin:ELEMENTS": {
             "links": {
                 "Github": "https://github.com/ElementsProject/elements",

@@ -633,6 +633,29 @@ def by_name(name: str) -> CoinInfo:
                 curve_name='secp256k1',
                 confidential_assets=None,
             )
+        elif name == "DashCash":
+            return CoinInfo(
+                coin_name=name,
+                coin_shortcut="DSC",
+                address_type=30,
+                address_type_p2sh=16,
+                maxfee_kb=2000000,
+                signed_message_header="\\x19DashCash Signed Message:\n",
+                xpub_magic=0x0488b21e,
+                xpub_magic_segwit_p2sh=0x049d7cb2,
+                xpub_magic_segwit_native=0x04b24746,
+                bech32_prefix="bc",
+                cashaddr_prefix=None,
+                slip44=1208,
+                segwit=True,
+                fork_id=None,
+                force_bip143=False,
+                bip115=False,
+                decred=False,
+                negative_fee=False,
+                curve_name='secp256k1',
+                confidential_assets=None,
+            )
         elif name == "Decred":
             return CoinInfo(
                 coin_name=name,
