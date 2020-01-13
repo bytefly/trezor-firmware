@@ -766,6 +766,19 @@
                 }
             ]
         },
+        "bitcoin:TBCH": {
+            "links": {
+                "Github": "https://github.com/Bitcoin-ABC/bitcoin-abc",
+                "Homepage": "https://www.bitcoincash.org"
+            },
+            "marketcap_usd": 4971782597,
+            "name": "Bitcoin Cash Testnet",
+            "shortcut": "BCHTEST",
+            "t1_enabled": "yes",
+            "t2_enabled": "yes",
+            "type": "coin",
+            "wallet": []
+        },
         "bitcoin:UMBRU": {
             "links": {
                 "Github": "https://github.com/umbru/umbru-core",
@@ -28955,6 +28968,18 @@
                     "url": "https://www.myetherwallet.com"
                 }
             ]
+        },
+        "eth:ASM": {
+            "links": {
+                "Homepage": "https://www.asmblock.io"
+            },
+            "marketcap_usd": 0,
+            "name": "ASM",
+            "shortcut": "ASM",
+            "t1_enabled": "yes",
+            "t2_enabled": "yes",
+            "type": "coin",
+            "wallet": []
         },
         "eth:ATH": {
             "links": {
