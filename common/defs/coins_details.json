@@ -779,6 +779,32 @@
             "type": "coin",
             "wallet": []
         },
+        "bitcoin:BSV": {
+            "links": {
+                "Github": "https://github.com/bitcoin-sv/bitcoin-sv",
+                "Homepage": "https://bitcoinsv.io"
+            },
+            "marketcap_usd": 4971782597,
+            "name": "Bitcoin SV",
+            "shortcut": "BSV",
+            "t1_enabled": "yes",
+            "t2_enabled": "yes",
+            "type": "coin",
+            "wallet": []
+        },
+        "bitcoin:BSVTEST": {
+            "links": {
+                "Github": "https://github.com/bitcoin-sv/bitcoin-sv",
+                "Homepage": "https://bitcoinsv.io"
+            },
+            "marketcap_usd": 4971782597,
+            "name": "Bitcoin SV Testnet",
+            "shortcut": "BSVTEST",
+            "t1_enabled": "yes",
+            "t2_enabled": "yes",
+            "type": "coin",
+            "wallet": []
+        },
         "bitcoin:UMBRU": {
             "links": {
                 "Github": "https://github.com/umbru/umbru-core",
